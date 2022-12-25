@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>日文學習網</title>
+    <link rel="stylesheet" href="css/doushi-type.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/t/bs-3.3.6/jqc-1.12.0,dt-1.10.11/datatables.min.css"/> 
+    <script src="https://cdn.datatables.net/t/bs-3.3.6/jqc-1.12.0,dt-1.10.11/datatables.min.js"></script>
+    <script>
+        jQuery(function($){
+            $("#article-table").DataTable({
+                ordering: false,
+                lengthChange: false,
+                searching: false,
+                
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="navbarContainer">
+                <div class="line-one">
+                    <div class="left">
+                        <a href="index.html"><span>日文學習網</span></a>
+                    </div>
+                    <div class="right">
+
+                    </div>
+                </div>
+                <div class="line-two">
+                    <div class="item">
+                        <a href="doushi-type.html"><span>動詞類型</span></a>
+                    </div>
+                    <div class="item active">
+                        <a href="doushi-henka.html"><span>動詞變化</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="adv.html"><span>副詞</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="osusume.html"><span>推薦學習網站</span></a>
+                    </div>
+                    <div class="item">
+                        <a href="about.html"><span>關於我</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container">
+            <table id="article-table" class="table table-bordered">
+                <thead>
+                    <tr><th>文章列表</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><a href="/doushi-henka/te.html">て</a></td></tr>
+                    <tr><td><a href="/doushi-henka/ta.html">た</a></td></tr>
+                    <tr><td><a href="/doushi-henka/nai.html">ない</a></td></tr>
+                    <tr><td><a href="/doushi-henka/jisyo.html">辞書形</a></td></tr>
+                    <tr><td><a href="/doushi-henka/kanou.html">可能</a></td></tr>
+                    <tr><td><a href="/doushi-henka/ikou.html">意向形</a></td></tr>
+                    <tr><td><a href="/doushi-henka/meirei.html">命令形</a></td></tr>
+                    <tr><td><a href="/doushi-henka/kinshi.html">禁止形</a></td></tr>
+                    <tr><td><a href="/doushi-henka/jyouken.html">条件形</a></td></tr>
+                    <tr><td><a href="/doushi-henka/ukemi.html">受身形</a></td></tr>
+                    <tr><td><a href="/doushi-henka/shieki.html">使役形</a></td></tr>
+                    <tr><td><a href="/doushi-henka/hsiekiukemi.html">使役受身形</a></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="copyright">
+            <p><small>coptright</small></p>
+        </div>
+    </div>
+</body>
+</html>
